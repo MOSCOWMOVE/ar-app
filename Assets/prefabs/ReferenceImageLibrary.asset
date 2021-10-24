@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 5762608656523530759
       m_GuidHigh: 6142393503259005094
     m_SerializedTextureGuid:
-      m_GuidLow: 8193309656142039971
-      m_GuidHigh: 6746298020773435752
+      m_GuidLow: 1559498392380292698
+      m_GuidHigh: 11541761686840040441
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: test
-    m_Texture: {fileID: 2800000, guid: e51fcba37bb871b468191f754eaa9f5d, type: 3}
+    m_Name: peopleEnjoy
+    m_Texture: {fileID: 2800000, guid: 799ebe5a738615a4f95b50721a932ca0, type: 3}

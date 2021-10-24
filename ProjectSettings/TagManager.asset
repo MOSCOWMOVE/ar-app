@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - district
+  - point
+  - spawner
+  - slider
+  - map
+  - sliderManager
   layers:
   - Default
   - TransparentFX

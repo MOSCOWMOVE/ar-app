@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 8225818072224054514}
   - component: {fileID: 8225818072224054515}
   - component: {fileID: 8225818072224054524}
-  - component: {fileID: 8225818072224054512}
+  - component: {fileID: 7057668147725134972}
+  - component: {fileID: 4442498349653007899}
   m_Layer: 0
   m_Name: loacationPin
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8225818072224054513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.243, y: 0.5658823, z: -0.573}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.035, y: 0.05, z: 0.035}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -90,7 +91,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8225818072224054513}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0af7b61cd28c24e44865a79c48d97a4a, type: 3}
   m_Name: 
@@ -99,9 +100,9 @@ MonoBehaviour:
   r1000m: {fileID: 9077891664786896537, guid: 0d4fb72022cf6604d84836e50b31da26, type: 3}
   r3000m: {fileID: 0}
   r5000m: {fileID: 1499484712997253090, guid: 7cc289b69085e794aa510ea6286859ad, type: 3}
-  availability: 3000
---- !u!64 &8225818072224054512
-MeshCollider:
+  availability: 1000
+--- !u!65 &7057668147725134972
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -110,7 +111,22 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  serializedVersion: 2
+  m_Size: {x: 10, y: 32.73, z: 10}
+  m_Center: {x: 0, y: -14.28, z: 0}
+--- !u!54 &4442498349653007899
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8225818072224054513}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
