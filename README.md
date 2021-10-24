@@ -33,6 +33,7 @@
 | admin | admin|
 
 Нажав кнопку [Войти]() вы увидите следующий экран:
+
 ![](https://sun9-24.userapi.com/impg/2K5aKaRYDdfxRjyZyJAItnV2YZoR087R5l9vQA/uLaaGsVsPAw.jpg?size=623x1280&quality=95&sign=6826130eb8ee6d8e2ba5de14ada4d4ff&type=album)
 
 В нем вы выбираете режим карты, в котором она будет отображается.
@@ -47,6 +48,7 @@
 После выбора режима вас перебросит в сцену, где наведясь на QR-Сode вам покажут информацию.
 ##  А если я хочу перейти в другую сцену?
 Отлично, для этого вы можете нажать на сайд бар и выбрать нужный  вам режим
+
 ![](https://sun9-69.userapi.com/impg/03FDVJdvfbGvGLxvul0gBo5YeacOWvL8naGi3g/5lxF2Fe2Q24.jpg?size=623x1280&quality=95&sign=8c85176e34321f2a0119636dc2c7e6e0&type=album)
 
 ## Карта населенности районов
