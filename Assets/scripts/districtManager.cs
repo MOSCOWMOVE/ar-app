@@ -14,6 +14,8 @@ public class districtManager : MonoBehaviour
     Slider slider;
     public GameObject spawner;
     float previousSliderValue = 2010;
+    public Texture2D image;
+
     void Start()
     {
         slider = GameObject.FindGameObjectsWithTag("slider")[0].GetComponent<Slider>();
@@ -91,7 +93,7 @@ public class districtManager : MonoBehaviour
         density = gameObject.GetComponent<getData>().getDistritsDencity();
         for (int i = 0; i < density.Count; i++)
         {
-            getColor.RGB newColor = getDistrictColor(Convert.ToInt32(this.density[i].density));
+
             /*            Debug.Log(newColor.R.ToString() + " " + newColor.G.ToString() + " " + newColor.B.ToString() + " ");
             */
             GameObject child = gameObject.transform.GetChild(i).gameObject;
@@ -100,17 +102,19 @@ public class districtManager : MonoBehaviour
             child.AddComponent<HighDistrictManager>();
             child.tag = "district";
             child.GetComponent<MeshRenderer>().materials[0].shader = invincibleShader;
-            child.GetComponent<MeshRenderer>().materials[0].color = new Color((float)(newColor.R + 0) / 255f, (float)(newColor.G + 0) / 255f, (float)(newColor.B + 0) / 255f, 0.5f);
-/*            float k = (float)density[i].density / 30387f;
-            child.transform.localScale = new Vector3(child.transform.localScale.x, 10f * k, child.transform.localScale.z);*/
+            Color districtColor = getDistrictColor(Convert.ToInt32(density[i].density));
+            districtColor.a = 0.5f;
+            child.GetComponent<MeshRenderer>().materials[0].color = districtColor;
+            /*            float k = (float)density[i].density / 30387f;
+                        child.transform.localScale = new Vector3(child.transform.localScale.x, 10f * k, child.transform.localScale.z);*/
         }
     }
-    getColor.RGB getDistrictColor(int dencity)
+    Color getDistrictColor(int dencity)
     {
         int maxDencity = 30387;
         int h = 160 - (160 * dencity / maxDencity);
-        return getColor.HSLToRGB(new getColor.HSL(h, 100, 50));
+        return image.GetPixel(h, 1);
     }
- 
+
 
 }

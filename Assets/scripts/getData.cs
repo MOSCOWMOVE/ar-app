@@ -9,7 +9,7 @@ public class getData : MonoBehaviour
     void Start()
     {
         getPointsData();
-        dencity = getDistritsDencity();
+     
     }
 
     // Update is called once per frame

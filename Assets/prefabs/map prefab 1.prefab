@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   point: {fileID: 8225818072224054513, guid: b33a6cabe504b9142bc700a8bacdc37d, type: 3}
   spawner: {fileID: 6830932738192952187, guid: 9d7902a29ee97ce4e9bef836161aaa10, type: 3}
+  image: {fileID: 2800000, guid: 57108b5cc5e580448911adb6b331277d, type: 3}
 --- !u!114 &7640419368299818716
 MonoBehaviour:
   m_ObjectHideFlags: 0

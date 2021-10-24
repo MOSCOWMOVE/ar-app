@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: houseMap
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5693128744784767075
+  m_GuidHigh: 13307717447139224246
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5447831471046166610
+      m_GuidHigh: 10973988522730244232
+    m_SerializedTextureGuid:
+      m_GuidLow: 15241477273640395653
+      m_GuidHigh: 3282987740025144986
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: houseMap
+    m_Texture: {fileID: 2800000, guid: db8663859ad3d3849a46299ef4838f2d, type: 3}
